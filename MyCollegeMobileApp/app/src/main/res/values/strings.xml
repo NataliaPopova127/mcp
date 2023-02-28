@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Мой колледж</string>
+    <string name="news_proba"> В нашем колледже стало традицией знакомить первокурсников с фильмом «Бесленей. Право на жизнь» о героическом подвиге жителей черкесского аула, которые в 1942 году спасли от неминуемой смерти детей-сирот из блокадного Ленинграда приютив их у себя в ауле. Несмотря на опасность и тяжелое военное время, жители Бесленея дали детям кров, пищу, вырастили и воспитали их, как родных детей. И все усыновлённые дети дожили до Дня Победы…</string>
+    <string-array name="news_array">
+        <item>News1</item>
+        <item>News2</item>
+        <item>News3</item>
+        <item>News4</item>
+        <item>News5</item>
+        <item>News6</item>
+        <item>News7</item>
+        <item>News8</item>
+        <item>News9</item>
+        <item>News10</item>
+        <item>News11</item>
+        <item>News12</item>
+        <item>News13</item>
+        <item>News14</item>
+        <item>News15</item>
+        <item>News16</item>
+        <item>News17</item>
+        <item>News18</item>
+    </string-array>
+</resources>

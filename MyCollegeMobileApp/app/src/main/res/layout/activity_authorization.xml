@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AuthorizationActivity"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/tbLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="248dp"
+        android:text="Логин  "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tbPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Пароль"
+        app:layout_constraintEnd_toEndOf="@+id/tbLogin"
+        app:layout_constraintStart_toStartOf="@+id/tbLogin"
+        app:layout_constraintTop_toBottomOf="@+id/tbLogin" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="@+id/tbPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.596"
+        app:layout_constraintStart_toEndOf="@+id/tbPassword"
+        app:layout_constraintTop_toTopOf="@+id/tbPassword"
+        app:layout_constraintVertical_bias="0.619" />
+
+    <EditText
+        android:id="@+id/etLogin"
+        android:layout_width="219dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/tbLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toEndOf="@+id/tbLogin"
+        app:layout_constraintTop_toTopOf="@+id/tbLogin" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:text="Войти"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnApplicantInf"
+        android:onClick="btnSignInClick"/>
+
+    <Button
+        android:id="@+id/btnApplicantInf"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="216dp"
+        android:text="Абитуриенту"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbPassword"
+        android:onClick="btnApplicantInfClick"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
